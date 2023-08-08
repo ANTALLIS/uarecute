@@ -1,10 +1,16 @@
-all: build
+.PHONY: all
+all: uarecute
 
-build: uarecute.c
-	gcc -o uarecute uarecute.c
+uarecute: uarecute.o
+	cc -o $@ $^
 
-run: build
-	./uarecute
+uarecute.o: uarecute.c
+	cc -o $@ -c $^
 
+.PHONY: clean
 clean:
-	rm -f uarecute
+	rm -f *.o uarecute
+
+.PHONY: run
+run: uarecute
+	./uarecute
