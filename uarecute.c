@@ -2,11 +2,13 @@
 #include <stdlib.h>
 
 int main(void) {
-	puts("\n\
+	// puts("\n\
  Zzzzz  |\\      _,,,--,,_        +--------------------------+\n\
         /,`.-'`'   ._  \\-;;,_    | You are cuuuuuuuuute!    |\n\
        |,4-  ) )_   .;.(  `'-'   | I like you a lot         |\n\
       '---''(_/._)-'(_\\_)        +--------------------------+\n\
 ");
+ 	puts("    I am (๑•́ㅿ•̀๑)ᔆᵒʳʳᵞ");
+	puts("    (｡ĭ﹏ĭ) ( ĭ﹏ĭ ) (ĭ﹏ĭ｡)");
 	return EXIT_SUCCESS;
 }
